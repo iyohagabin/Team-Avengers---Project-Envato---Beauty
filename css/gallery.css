@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;   
+    
+   }
+
+body{
+    box-sizing: border-box;
+}
+
+/* nav section */
+#nav-bar{
+    position: sticky;
+    margin: 0px 100px !important;
+    top: 0;
+    z-index: 10;
+    /* box-shadow: 1px 4px 10px rgba(229, 229, 229, 0.35); */
+    }
+    
+    .navbar{
+        padding: 0 !important;
+        margin: 20px 0;
+        background: #fff;
+    }
+    .navbar-brand img{
+        height: 30px;
+    }
+    .navbar-brand{
+        font-weight: 800;
+        color: #1c1c1c !important;
+        line-height: 22px;
+    }
+    .navbar-nav li {
+        padding: 0 10px;
+    }
+    .navbar-nav li a {
+        color: black !important;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+    }
+    .navbar-nav li a:hover{
+        color: #0a0a0a !important;
+    } 
+    .fa-bars{
+        color: rgb(94, 93, 93) !important;
+        font-size: 30px !important;
+    }
+    .navbar-toggler{
+        outline: none;
+    }    
+     .nav-item .btn-primary{ box-shadow: none; padding: 10px 35px; border: none; border-radius: 5px; background: #1c1c1c;
+    color: #ffffff !important;
+    } 
+    .nav-item .btn-primary:hover{
+        background: #fff;
+        color: #1c1c1c !important;
+    }
+
+/* check-out section */
+
+#check-out{
+    background: linear-gradient(rgba(245, 150, 155, 0.3), rgba(245, 150, 155, 0.3)), url(../img/first\ makeup\ brushes.png)  no-repeat center center/cover;
+    min-height: 612px;
+    max-width:1400px;
+    
+}
+#check-out .check-out-content{
+    color: #ffffff;
+    padding-top: 170px;
+    padding-left: 88px;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+/* Gallery section */
+#gallery{
+    margin-top: 50px ;
+}
+.gallery-img{
+    max-width: 100%;
+    margin: 30px 0;
+}
+.btn{
+    box-shadow: none;
+    background: #1c1c1c !important;
+    color: #ffffff !important;
+    width: 140px;
+    border-radius: 20px!important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 60px;
+ }
+
+ #footer{
+    background: url(../img/footer-img.png)  no-repeat center center/cover;
+    margin-top: 20px;
+    color: #fff;
+ }
+
+ .footer-link{font-size: 14px;
+    color:#ffffff; text-decoration: none;
+text-decoration-style: none;}
+.footer-link:hover{
+color: #96772c;
+}
+.store-name{ font-weight: bold;
+font-size: 36px; line-height: 44px;
+
+}   
+.store-name:after{ content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin-left: 70px; /* This will center the border. */
+    width: 70%; /* Change this to whatever width you want. */
+    padding-top: 10px;
+    border-bottom: 1px solid #fff;} 
+
+.sm-icons{margin-left: 250px;}   
+.allrights{font-size: 14px;
+line-height: 21px;} 
